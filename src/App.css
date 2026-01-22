@@ -1,0 +1,15 @@
+/* Global App Styles - All styling is handled by Tailwind CSS and Framer Motion */
+
+/* Smooth page transitions */
+main {
+  animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
