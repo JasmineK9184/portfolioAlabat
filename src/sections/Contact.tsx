@@ -11,7 +11,7 @@ export const Contact = () => {
     { name: 'GitHub', url: '#', icon: '🔗' },
     { name: 'LinkedIn', url: '#', icon: '💼' },
     { name: 'Twitter', url: '#', icon: '🐦' },
-    { name: 'Email', url: 'mailto:hello@example.com', icon: '✉️' },
+    { name: 'Email', url: 'mailto:Jasminealabat7@gmail.com', icon: '✉️' },
   ];
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
@@ -177,7 +177,7 @@ export const Contact = () => {
                 <span className="text-3xl">📍</span>
                 <div>
                   <p className="text-accent font-semibold">Location</p>
-                  <p className="text-light/70">San Francisco, CA</p>
+                  <p className="text-light/70">P5 Datu-Silongan</p>
                 </div>
               </motion.div>
 
@@ -185,8 +185,8 @@ export const Contact = () => {
                 <span className="text-3xl">✉️</span>
                 <div>
                   <p className="text-accent font-semibold">Email</p>
-                  <a href="mailto:hello@example.com" className="text-light/70 hover:text-accent transition-colors">
-                    hello@example.com
+                  <a href="mailto:Jasminealabat7@gmail.com" className="text-light/70 hover:text-accent transition-colors">
+                    Jasminealabat7@gmail.com
                   </a>
                 </div>
               </motion.div>
@@ -195,8 +195,8 @@ export const Contact = () => {
                 <span className="text-3xl">📱</span>
                 <div>
                   <p className="text-accent font-semibold">Phone</p>
-                  <a href="tel:+1234567890" className="text-light/70 hover:text-accent transition-colors">
-                    +1 (234) 567-890
+                  <a href="tel:+639092325581" className="text-light/70 hover:text-accent transition-colors">
+                    +63 909-232-5581
                   </a>
                 </div>
               </motion.div>
