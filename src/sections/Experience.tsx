@@ -63,7 +63,7 @@ export const Experience = () => {
           viewport={{ once: true }}
           className="space-y-8"
         >
-          {experiences.map((exp, index) => (
+          {experiences.map((exp) => (
             <motion.div
               key={exp.id}
               variants={itemVariants}
